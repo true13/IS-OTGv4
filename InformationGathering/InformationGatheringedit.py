@@ -36,7 +36,7 @@ class InformationGathering:
         print("Bing" + str(title_bing))
 		
 		
-	def websever (self):
+	def web_sever (self):
 		req = requests.get(self.url)
 		status = req.status_code
 		
